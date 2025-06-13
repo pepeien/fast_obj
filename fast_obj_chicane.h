@@ -17,6 +17,7 @@ fastObjMesh* fast_obj_read_memory_with_callbacks(const char* start, const char* 
     m->colors         = 0;
     m->face_vertices  = 0;
     m->face_materials = 0;
+    m->face_lines     = 0;
     m->indices        = 0;
     m->materials      = 0;
     m->textures       = 0;
